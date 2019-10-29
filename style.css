@@ -14,6 +14,16 @@ h1 {
     text-align: center;
 }
 
+select {
+    font-size: 150%;
+    
+}
+#selector-form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
 .card-wrapper {
     display: flex;
     flex-direction: row;
