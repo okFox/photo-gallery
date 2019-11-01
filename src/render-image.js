@@ -1,6 +1,3 @@
-
-
-
 export default function renderImage(card) {
     const markup = `    <li class='card'>
         <div class='animal-image'><img src="${card.url}" alt="${card.title}" title="${card.description}"></div>
