@@ -23,24 +23,24 @@ images.forEach(object => {
 });
 
 
-dropListElement.addEventListener('change', () => {
-    let selectedItemValue = dropListElement.value;
-    let filterArray = null;
+// dropListElement.addEventListener('change', () => {
+//     let selectedItemValue = dropListElement.value;
+//     let filterArray = null;
 
-    if (!selectedItemValue) {
-        filterArray = images;
-    } else {
-        filterArray = images.filter(image => {
-            if (image.type === filterArray) {
-                return true;
-            } else {
-                return false;
-            }
-        });
-    }
-    console.log(filterArray);
+//     if (!selectedItemValue) {
+//         filterArray = images;
+//     } else {
+//         filterArray = images.filter(image => {
+//             if (image.type === filterArray) {
+//                 return true;
+//             } else {
+//                 return false;
+//             }
+//         });
+//     }
+//     console.log(filterArray);
 
-});
+// });
 
 // //check reference code, you need a few more steps
 // images.forEach(object => {
